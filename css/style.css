@@ -1,0 +1,310 @@
+.container{
+    width:1170px;
+    margin:auto;
+}
+
+/*start header*/
+
+.header{
+    overflow: hidden;
+    background: blueviolet;
+    color: #FFF;
+    height:350px;
+}
+
+.header .left,
+.header .right{
+
+    font-size: 30px;
+    margin-top: 65px;
+    line-height:1.5;
+}
+
+.header .left {
+    width: 50%;
+    float: left;
+}
+
+.header .left p span:hover{
+    color:#0ae61a;
+    cursor:pointer;
+}
+
+.header .right{
+    width: 45%;
+    float: left;
+    border-left:1px solid darkgrey;
+}
+
+.header .right .rightinfo {
+    margin-left:40px;
+}
+
+.header .right p{
+    font-size: 20px;
+}
+
+.header .right button{
+    display: block;
+    background: #0ae61a;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+
+/*end header*/
+
+/*start testimonials*/
+
+.testimonials{
+    padding:50px 0;
+    overflow:hidden;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.testimonials .left,
+.testimonials .right{
+    width: 50%;
+    float: left;
+}
+
+.testimonials .left .leftinfo{
+padding: 0 30px 0 0;
+}
+
+.testimonials .left .leftinfo h2{
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.testimonials .left .leftinfo p{
+    color: #999;
+    line-height: 2;
+    margin-bottom: 52px;
+}
+
+.testimonials .left .leftinfo button{
+    font-weight:bold;
+    letter-spacing:2.5px;
+    background:transparent;
+    color: darkgray;
+    padding:20px;
+    border-radius:25px;
+    cursor: pointer;
+    margin-left: 30px;
+    outline:0;
+}
+
+.testimonials .right{
+    display:none;
+}
+
+.testimonials .right .rightinfo {
+    border-left: 1px solid #e5e5e5;
+}
+
+.testimonials .right .rightinfo ul{
+    list-style: none;
+    margin-top:0;
+    padding-left: 50px;
+}
+
+.testimonials .right .rightinfo ul li{
+    color: darkgray;
+    margin-bottom: 5px;
+}
+
+.testimonials .right .rightinfo ul li:before{
+    font-family: 'FontAwesome';
+    content:"\f00c";
+    color:#0ae61a;
+    font-size: 20px;
+}
+
+.testimonials .right .rightinfo ul li h3{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/*end testimonials*/
+
+/*start portfolio*/
+
+.portfolio{
+    padding: 50px 0;
+    background:#F2F2F2;
+}
+
+.portfolio .stats{
+    overflow: hidden;
+    margin: 20px 0 50px;
+}
+
+.portfolio .stats .image{
+    width: 50%;
+    float: left;
+}
+
+.portfolio .stats .text{
+    width: 50%;
+    float: left;
+}
+
+.portfolio .stats h3{
+    color: #777;
+    margin: 100px 0 35px 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.portfolio .stats p{
+    color: darkgray;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.portfolio .stats button{
+    color: darkgrey;
+    background: transparent;
+    border: 2px solid darkgrey;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.portfolio .stats button:hover{
+    background:#888;
+    color:#FFF;
+}
+
+/*end portfolio*/
+
+/*start contact us*/
+
+.contact-us{
+    padding: 50px 0;
+}
+
+.contact-us .data{
+    overflow:hidden;
+}
+
+.contact-us .data .roll{
+    width: 45%;
+    float: left;
+    border-right: 1px solid darkgrey;
+    padding-right: 50px;
+}
+
+.contact-us .data .roll h2{
+    color: #777;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.contact-us .data .roll p{
+    color: darkgray;
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.contact-us .data .roll .form input[type="text"]{
+    margin-right: 20px;
+    padding: 10px 20px;
+}
+
+.contact-us .data .roll .form input[type="email"]{
+    padding: 10px 20px;
+}
+
+.contact-us .data .roll .form textarea{
+    width: 95%;
+    height: 150px;
+    display: block;
+    margin: 20px 0;
+}
+
+.contact-us .data .roll .form input[type="submit"]{
+    color: darkgrey;
+    background: transparent;
+    border: 2px solid darkgrey;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: bold;
+}   
+
+.contact-us .data .roll .form input[type="submit"]:hover{
+    background:#888;
+    color:#FFF;
+}
+
+.contact-us .data .links{
+    width: 45%;
+    float: left;
+    padding-left: 40px;
+}
+
+.contact-us .data .links ul{
+    list-style: none;
+}
+
+.contact-us .data .links ul li{
+    margin-top: 36px;
+    color: #777;
+    font-weight: bold;
+}
+
+.contact-us .data .links ul li i{
+    margin-right: 20px;
+    color: #0ae61a;
+    cursor:pointer;
+}
+
+/*end contact us*/
+
+/*start footer*/
+
+.footer{
+    padding:20px;
+    text-align:center;
+    background:#333;
+    color:#FFF;
+} 
+
+.footer p{
+    font-size:20px;
+    letter-spacing: 1.5px;;
+}
+
+/*end footer**/
+
+/*start framework*/
+
+.upper-case{
+    text-transform:uppercase;
+}
+
+/*end framework*/
+
+/* Start Grid System */
+@media (min-width: 576px) { /* Small Devices => Landscape Phones */
+    .container {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) { /* Medium Devices => Tablets */
+    .container {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) { /* Desktops */
+    .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) { /* Large Screens */
+    .container {
+      max-width: 1140px;
+    }
+  }
+  /* End Grid System */  
